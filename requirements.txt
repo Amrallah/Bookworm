@@ -1,4 +1,5 @@
 Django==2.2
+adium-theme-ubuntu==0.3.4
 django-cors-headers==2.5.3
 djangorestframework==3.9.2
 gunicorn==19.9.0
