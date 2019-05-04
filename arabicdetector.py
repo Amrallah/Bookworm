@@ -105,8 +105,8 @@ def detectWord(img,toDetect):
         Matrix[i][3] = x+w+2
         Matrix[i][4] = 'cropped\pic000%d.png' % (i,)
         cv2.imwrite('cropped/pic{:>05}.png'.format(i), img1)
-        imgx = cv2.imread('01.png')
-        img1 = prepareImg(imgx, 600)
+        imgx = img
+        img1 = prepareImg(img, 600)
         i += 1
 
     k=0
